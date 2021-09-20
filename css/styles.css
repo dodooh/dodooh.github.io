@@ -69,3 +69,10 @@ h3 {
 b {
   color: #52527a;
 }
+
+blockquote {
+  font-family: "Sacramento";
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
