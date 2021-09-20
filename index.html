@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nghia Nguyen's Resume</title>
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart1);
+      google.charts.setOnLoadCallback(drawChart2);
+
+      function drawChart1() {
+
+        var data = google.visualization.arrayToDataTable([
+          ['Language', 'Percentage'],
+          ['C++', 15],
+          ['JavaScript/NodeJs/ReactJs', 55],
+          ['Python',  30],
+          ['MongoDB', 15],
+          ['Git/CMD',  15]
+        ]);
+
+        var options = {
+          title: ''
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart1'));
+
+        chart.draw(data, options);
+      }
+      function drawChart2() {
+
+        var data = google.visualization.arrayToDataTable([
+        ['Skill', 'Percentage'],
+        ['Teamwork', 40],
+        ['Analytic', 35],
+        ['Planning',  25],
+        ['Initiative', 20],
+        ['Research',  30]
+        ]);
+
+        var options = {
+        title: ''
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart2'));
+
+        chart.draw(data, options);
+        }
+    </script>
+ 
+</head>
+<body>
+    <div class="main-container">
+        <table>
+            <tr>
+                <td class="profile-picture-container"> 
+                    <img class="profile-picture" src="image/profile-picture.png" alt="profile picture" width="240px">
+                </td>
+                <td class="title">
+                    <h4 class="name"><b>Nghia</b> Nguyen Tran Thanh</h4>
+                    <h6><b>developer</b></h6>
+                    <h6>Location: <b>Danang, Vietnam</b> </h6>
+                    <h6>Telephone: <b>+84935151766</b></h6>
+                    <h6>Email: <b>nguyen2697s@gmail.com</b></h6>
+                    <h6>Github: <a href="https://github.com/dodooh">https://github.com/dodooh</a></h6>
+                    <h6>LinkedIn: <a href="https://www.linkedin.com/in/nguyen2697s/">https://www.linkedin.com/in/nguyen2697s/</a></h6>
+                </td>
+            </tr>
+            <tr>
+                <td class="left-panel">
+                    <h3>Programming Skills</h3>
+                    <div id="piechart1" style="width: 500px; height: 300px; margin: 0;"></div>
+                    <h3>Personal Skills</h3>
+                    <div id="piechart2" style="width: 500px; height: 300px;"></div>
+                </td>
+                <td class="right-panel">
+                    <h3>Work Experience</h3>
+                    <table cellspacing="5" class="fixed">
+                        <col width="200px" />
+                        <col width="auto" />
+                        <tr>
+                            <td class="date"><h6 >Sep/2018-May/2020</h6></td>
+                            <td>
+                                <table class="child-table">
+                                    <tr>
+                                        <td class="role"><h6>Teaching Assistant</h6></td>
+                                        <td class="place"><h6>Danang University of Science and Technology</h6></td>
+                                    </tr>
+                                </table>
+                                <h6 class="description">Helping second and third year students in the course CSE142: Computer Programming I, CSE143: Computer Programming II and CSE373: Data Structure and Algorithm.</h6>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="date"><h6 >Aug/2019-Jan/2021</h6></td>
+                            <td>
+                                <table class="child-table">
+                                    <tr>
+                                        <td class="role"><h6>IT Consultant</h6></td>
+                                        <td class="place"><h6>Melbourne Star Company</h6></td>
+                                    </tr>
+                                </table>
+                                <h6 class="description">Delivery Website, App and Chat-bot and marketing solutions for E-commerce. I am responsible for development, hosting and maintainance products.</h6>
+                            </td>
+                        </tr>
+                    </table>
+                    <br>
+                    <h3>Education</h3>
+                    <table cellspacing="5" class="fixed">
+                        <col width="200px" />
+                        <col width="auto" />
+                        <tr>
+                            <td class="date"><h6 >Aug/2015-Now (Undergraduate)</h6></td>
+                            <td>
+                                <table class="child-table">
+                                    <tr>
+                                        <td class="role"><h6>B.E in Electrical Engineering & Telecommunication</h6></td>
+                                        <td class="place"><h6>Danang University of Science and Technology</h6></td>
+                                    </tr>
+                                </table>
+                                <h6 class="description">Electrical Engineering & Telecommunication Bachelor of Engineering focusing on design, produce, study and operate all manner of devices and systems. Also providing coordination of all physical elements contains voice, data, cable and minor capital construction projects.</h6>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+
+    </div>
+    
+</body>
+</html>

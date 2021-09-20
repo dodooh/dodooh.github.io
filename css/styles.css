@@ -1,0 +1,67 @@
+body {
+    font-family: 'EB Garamond', serif;
+    font-size: 36px;
+}
+.main-container {
+    margin: 10px 50px;
+    box-shadow: #e0e0eb;
+}
+.date {
+    vertical-align: top;
+    padding-top: 4px;
+    color: #9da1a0;
+}
+
+.description {
+    font-weight: lighter;
+    text-align: justify;
+}
+.left-panel {
+    vertical-align: top;
+}
+.name {
+    color: #b3b3cc;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
+.profile-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.role {
+    text-align: left;
+}
+.place  {
+    text-align: right;
+    color: skyblue;
+}
+.title {
+    text-align: right;
+    border-bottom: 5px solid black;
+}
+
+table.fixed {
+    table-layout:fixed;
+}
+
+table.fixed td { 
+    overflow: hidden; 
+}
+
+table, .child-table {
+    width: 100%;
+}
+h4 {
+    text-align: center;
+}
+
+h6, h4, h3 {
+    margin: 0
+}
+
+b {
+    color: #52527a;
+}
+
