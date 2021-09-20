@@ -4,7 +4,7 @@ body {
 }
 .main-container {
   margin: 10px 50px;
-  box-shadow: #e0e0eb;
+
 }
 li {
   font-size: 1rem;
@@ -12,21 +12,29 @@ li {
 .date {
   vertical-align: top;
   padding-top: 4px;
-  color: #9da1a0;
+  color: #F56FAD;
 }
 
 .description {
-  font-weight: lighter;
+  font-weight: normal;
   text-align: justify;
 }
 .left-panel,
 .right-panel {
   vertical-align: top;
 }
+
+a {
+  color: #7027A0;
+}
+
+b{
+  color: #7027A0;
+  font-weight: bold;
+}
 .name {
-  color: #b3b3cc;
+  color: #C32BAD;
   text-align: right;
-  font-weight: bolder;
   margin: 0;
   padding: 0;
 }
@@ -36,11 +44,12 @@ li {
   margin-right: auto;
 }
 .role {
+  color: #7027A0;
   text-align: left;
 }
 .place {
   text-align: right;
-  color: skyblue;
+  color: #C32BAD;
 }
 .title {
   text-align: right;
@@ -66,9 +75,6 @@ h3 {
   margin: 0;
 }
 
-b {
-  color: #52527a;
-}
 
 blockquote {
   font-family: "Sacramento";

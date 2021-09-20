@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nghia Nguyen's Resume</title>
+    <title>Nghia Nguyen's Résumé</title>
     <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link rel="icon" href="image/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet"> 
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
       google.charts.load('current', {'packages':['corechart']});
@@ -27,7 +28,8 @@
         ]);
 
         var options = {
-          title: ''
+          title: '',
+          backgroundColor: { fill:'transparent' }
         };
 
         var chart = new google.visualization.PieChart(document.getElementById('piechart1'));
@@ -46,7 +48,8 @@
         ]);
 
         var options = {
-        title: ''
+        title: '',
+        backgroundColor: { fill:'transparent' }
         };
 
         var chart = new google.visualization.PieChart(document.getElementById('piechart2'));
@@ -75,8 +78,9 @@
             </tr>
             <tr>
                 <td class="left-panel">
+                    <br>
                     <h4>Programming Skills</h4>
-                    <div id="piechart1" style="width: 480px; height: 300px; margin: 0;"></div>
+                    <div id="piechart1" style="width: 480px; height: 300px;"></div>
                     <br>
                     <h4>Personal Skills</h4>
                     <div id="piechart2" style="width: 480px; height: 300px;"></div>
@@ -90,6 +94,7 @@
 
                 </td>
                 <td class="right-panel">
+                    <br>
                     <h4>Work Experience</h4>
                     <table cellspacing="3" class="fixed">
                         <col width="150px" />
@@ -103,7 +108,7 @@
                                         <td class="place"><h6>Danang University of Science and Technology</h6></td>
                                     </tr>
                                 </table>
-                                <h6 class="description">Helping second and third year students in the course CSE142: Computer Programming I, CSE143: Computer Programming II and CSE373: Data Structure and Algorithm.</h6>
+                                <h6 class="description">Helping second and third year students in the course CSE142: Computer Programming I, CSE143: Computer Programming II and CSE373: Data Structures and Algorithms.</h6>
                             </td>
                         </tr>
                         <tr>
