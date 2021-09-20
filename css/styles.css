@@ -1,70 +1,71 @@
 body {
-    font-family: 'EB Garamond', serif;
-    font-size: 36px;
+  font-family: "Montserrat", "Merriweather", sans-serif;
+  font-size: 36px;
 }
 .main-container {
-    margin: 10px 50px;
-    box-shadow: #e0e0eb;
+  margin: 10px 50px;
+  box-shadow: #e0e0eb;
 }
 li {
-    font-size:25px;
+  font-size: 1rem;
 }
 .date {
-    vertical-align: top;
-    padding-top: 4px;
-    color: #9da1a0;
+  vertical-align: top;
+  padding-top: 4px;
+  color: #9da1a0;
 }
 
 .description {
-    font-weight: lighter;
-    text-align: justify;
+  font-weight: lighter;
+  text-align: justify;
 }
-.left-panel, .right-panel {
-    vertical-align: top;
+.left-panel,
+.right-panel {
+  vertical-align: top;
 }
 .name {
-    color: #b3b3cc;
-    text-align: right;
-    margin: 0;
-    padding: 0;
+  color: #b3b3cc;
+  text-align: right;
+  font-weight: bolder;
+  margin: 0;
+  padding: 0;
 }
 .profile-picture {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .role {
-    text-align: left;
+  text-align: left;
 }
-.place  {
-    text-align: right;
-    color: skyblue;
+.place {
+  text-align: right;
+  color: skyblue;
 }
 .title {
-    text-align: right;
-    border-bottom: 5px solid black;
+  text-align: right;
+  border-bottom: 5px solid black;
 }
 
 table.fixed {
-    table-layout:fixed;
+  table-layout: fixed;
 }
 
-table.fixed td { 
-    overflow: hidden; 
+table.fixed td {
+  overflow: hidden;
 }
 
-table, .child-table {
-    width: 100%;
-}
-h4 {
-    text-align: center;
+table,
+.child-table {
+  width: 100%;
 }
 
-h6, h4, h3 {
-    margin: 0
+h6,
+h4,
+h3 {
+  margin: 0;
 }
 
 b {
-    color: #52527a;
+  color: #52527a;
 }
-
