@@ -6,6 +6,9 @@ body {
     margin: 10px 50px;
     box-shadow: #e0e0eb;
 }
+li {
+    font-size:25px;
+}
 .date {
     vertical-align: top;
     padding-top: 4px;
@@ -16,7 +19,7 @@ body {
     font-weight: lighter;
     text-align: justify;
 }
-.left-panel {
+.left-panel, .right-panel {
     vertical-align: top;
 }
 .name {
