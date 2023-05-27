@@ -2,10 +2,10 @@ entries:
   - title: me
     entries:
       - title: email
-        url: mailto:riccardo.graziosi97@gmail.com
+        url: mailto:nghiantt.dng@gmail.com
       - title: github
-        url: http://github.com/riggraz/
-      - title: "keep in touch: <a href='/newsletter.html'>newsletter</a>, <a href='/feed.xml'>rss feed</a>"
+        url: http://github.com/dodooh/
+#      - title: "keep in touch: <a href='/newsletter.html'>newsletter</a>, <a href='/feed.xml'>rss feed</a>"
 
   - title: posts
     post_list: true
